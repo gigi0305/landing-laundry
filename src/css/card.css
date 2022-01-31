@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-cards {
+    border: 2px red solid;
+    text-decoration: none;
+    
+}
+
+.header{
+    border: 2px black solid;
+    height: 100vh;
+}
+
+.text{
+    border: 2px green solid;
+    height: 100vh;
+}
+
+.button {
+    border: 2px yellow solid;
+    height: 100vh;
+}
+
