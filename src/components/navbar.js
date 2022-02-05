@@ -1,14 +1,16 @@
 import React from 'react';
 import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
+import { ReactComponent as Logo} from  '../assets/image/logo-svg.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Bar() {
+  
     return (
         <>
-        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+        <Navbar collapseOnSelect expand="fluid" bg="primary" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">Lavanderia Artigianale Carbinia dal 1972</Navbar.Brand>
+  <Navbar.Brand href="#home"><div><Logo fill="blue" width="100px" height="60px" /></div></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">

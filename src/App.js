@@ -1,8 +1,8 @@
 import './css/App.css';
 import Bar from './components/navbar';
-import Cards from './components/cards';
-
-
+import Home from './components/home';
+import Page2 from './components/page2';
+import Page3 from './components/page3';
 
 function App() {
   return (
@@ -11,7 +11,9 @@ function App() {
         <Bar />
       </header>
       <div className='cover'>
-        <Cards/>
+        <Home />
+        <div class='cover-two'><Page2/></div>
+        <div class='cover-three'> <Page3/></div>
       </div>
     </div>
   );
